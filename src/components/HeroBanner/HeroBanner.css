@@ -1,0 +1,62 @@
+.banner {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0% 5%;
+    box-shadow: 10px 10px 0 pink;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hero-item {
+    display: flex;
+    align-items: center;
+    margin: 20px
+}
+
+.hero-banner-image {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    transition: all 0.1s linear;
+
+}
+
+.hero-banner-image:hover {
+    transform: scale(1.05);
+    transition: all 0.1s linear;
+}
+
+.card-heading {
+    font-family: 'Playball', cursive;
+    text-align: left;
+    margin: 0px
+}
+
+.card-typography {
+    font-weight: 300;
+    text-align: left;
+    margin: 0px
+}
+
+@media screen and (max-width:1120px) {
+    .cards-wrapper {
+        flex-direction: column;
+        padding: 20px 0px
+    }
+
+    .hero-item {
+        margin-bottom: 0px;
+    }
+
+    .hero-banner-image {
+        margin: 0px;
+        margin-right: 20px;
+        margin-top: 20px;
+        height: 120px;
+        width: 120px;
+    }
+}
