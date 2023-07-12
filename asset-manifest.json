@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gen.ai/static/css/main.c1ab4266.css",
-    "main.js": "/gen.ai/static/js/main.7f0119a0.js",
+    "main.js": "/gen.ai/static/js/main.0d30e7b1.js",
     "static/media/recipe.png": "/gen.ai/static/media/recipe.0b19f47dc32d7a45d008.png",
     "static/media/product.jpg": "/gen.ai/static/media/product.0def60fe2f714f7db4a9.jpg",
     "static/media/cake_classes.png": "/gen.ai/static/media/cake_classes.ca4448655cfe1ff7f74e.png",
@@ -11,10 +11,10 @@
     "static/media/croissiant.jpg": "/gen.ai/static/media/croissiant.02bbfb0799e8617acdd5.jpg",
     "index.html": "/gen.ai/index.html",
     "main.c1ab4266.css.map": "/gen.ai/static/css/main.c1ab4266.css.map",
-    "main.7f0119a0.js.map": "/gen.ai/static/js/main.7f0119a0.js.map"
+    "main.0d30e7b1.js.map": "/gen.ai/static/js/main.0d30e7b1.js.map"
   },
   "entrypoints": [
     "static/css/main.c1ab4266.css",
-    "static/js/main.7f0119a0.js"
+    "static/js/main.0d30e7b1.js"
   ]
 }
