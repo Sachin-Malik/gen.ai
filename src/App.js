@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import Home from './screens/Home';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Cart from './screens/Cart';
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home toast={toast} showToast={showToast} />} />
       <Route path='/cart' element={<Cart />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
 
   );
