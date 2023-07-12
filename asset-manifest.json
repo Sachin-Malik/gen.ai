@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gen.ai/static/css/main.c1ab4266.css",
+    "main.js": "/gen.ai/static/js/main.7f0119a0.js",
+    "static/media/recipe.png": "/gen.ai/static/media/recipe.0b19f47dc32d7a45d008.png",
+    "static/media/product.jpg": "/gen.ai/static/media/product.0def60fe2f714f7db4a9.jpg",
+    "static/media/cake_classes.png": "/gen.ai/static/media/cake_classes.ca4448655cfe1ff7f74e.png",
+    "static/media/lemon_cake.jpg": "/gen.ai/static/media/lemon_cake.7d3a668bfceed56a894e.jpg",
+    "static/media/logo.png": "/gen.ai/static/media/logo.a1ada076d62f9680f577.png",
+    "static/media/black_forest.jpg": "/gen.ai/static/media/black_forest.9d1083db84bf3a523331.jpg",
+    "static/media/croissiant.jpg": "/gen.ai/static/media/croissiant.02bbfb0799e8617acdd5.jpg",
+    "index.html": "/gen.ai/index.html",
+    "main.c1ab4266.css.map": "/gen.ai/static/css/main.c1ab4266.css.map",
+    "main.7f0119a0.js.map": "/gen.ai/static/js/main.7f0119a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1ab4266.css",
+    "static/js/main.7f0119a0.js"
+  ]
+}
