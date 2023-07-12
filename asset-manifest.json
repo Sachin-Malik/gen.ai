@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/gen.ai/static/css/main.c1ab4266.css",
-    "main.js": "/gen.ai/static/js/main.732145f4.js",
+    "main.css": "/gen.ai/static/css/main.7a9ecd7b.css",
+    "main.js": "/gen.ai/static/js/main.71ff4f66.js",
     "static/media/recipe.png": "/gen.ai/static/media/recipe.0b19f47dc32d7a45d008.png",
     "static/media/product.jpg": "/gen.ai/static/media/product.0def60fe2f714f7db4a9.jpg",
     "static/media/cake_classes.png": "/gen.ai/static/media/cake_classes.ca4448655cfe1ff7f74e.png",
     "static/media/lemon_cake.jpg": "/gen.ai/static/media/lemon_cake.7d3a668bfceed56a894e.jpg",
+    "static/media/pound_cake.jpg": "/gen.ai/static/media/pound_cake.ccfe57d845d4600a9c63.jpg",
+    "static/media/carrot_cake.jpg": "/gen.ai/static/media/carrot_cake.b630de9703cc0961d85e.jpg",
+    "static/media/sponge_cake.jpg": "/gen.ai/static/media/sponge_cake.5483bb3458a1ddd4d8d6.jpg",
     "static/media/logo.png": "/gen.ai/static/media/logo.a1ada076d62f9680f577.png",
     "static/media/black_forest.jpg": "/gen.ai/static/media/black_forest.9d1083db84bf3a523331.jpg",
+    "static/media/genoise_cake.jpg": "/gen.ai/static/media/genoise_cake.f3080d8e8bb7681919c2.jpg",
     "static/media/croissiant.jpg": "/gen.ai/static/media/croissiant.02bbfb0799e8617acdd5.jpg",
     "index.html": "/gen.ai/index.html",
-    "main.c1ab4266.css.map": "/gen.ai/static/css/main.c1ab4266.css.map",
-    "main.732145f4.js.map": "/gen.ai/static/js/main.732145f4.js.map"
+    "main.7a9ecd7b.css.map": "/gen.ai/static/css/main.7a9ecd7b.css.map",
+    "main.71ff4f66.js.map": "/gen.ai/static/js/main.71ff4f66.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1ab4266.css",
-    "static/js/main.732145f4.js"
+    "static/css/main.7a9ecd7b.css",
+    "static/js/main.71ff4f66.js"
   ]
 }
