@@ -1,16 +1,23 @@
 import './App.css';
-import Catalog from './components/Catalog/Catalog';
-import HeroBanner from './components/HeroBanner/HeroBanner';
+import React, { useState } from 'react';
+import Home from './screens/Home';
+import { Routes, Route } from "react-router-dom";
+import Cart from './screens/Cart';
 function App() {
+
+  const [toast, setToast] = useState('');
+  function showToast(message) {
+    setToast(message + ' added to cart');
+    setTimeout(() => {
+      setToast('');
+    }, 2000)
+  }
   return (
-    <div className="App">
-      <div style={{ backgroundColor: 'rebeccapurple', paddingBottom: '40px' }}>
-        <div style={{ height: '100px' }}>
-        </div>
-        <HeroBanner />
-      </div>
-      <Catalog />
-    </div>
+    <Routes>
+      <Route path='/' element={<Home toast={toast} showToast={showToast} />} />
+      <Route path='/cart' element={<Cart />} />
+    </Routes>
+
   );
 }
 
