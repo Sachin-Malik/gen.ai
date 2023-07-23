@@ -17,6 +17,10 @@ function CartComponent() {
         setCartItems(newItems);
     }
 
+    function buyNow(item) {
+        alert('You are buying ' + item.title);
+    }
+
     function getTotalPrice(data) {
         let result = 0;
         data.forEach(element => {
@@ -33,14 +37,17 @@ function CartComponent() {
                     (
                         cartItems.map((item) => {
                             return (
-                                <div style={{ display: 'flex' }}>
+                                <div className='cart-item' >
                                     <div>
                                         <img src={item.image} style={{ borderRadius: '10px', margin: '10px' }} alt={item.imageAlt} height={'150px'} width={'150px'} />
                                     </div>
                                     <div style={{ margin: '0px 20px' }}>
                                         <p>{item.title} | {item.price}</p>
                                         <p>Qty: {item.count}</p>
-                                        <button onClick={() => removeItemFromCart(item)}>Remove this</button>
+                                        <div>
+                                            <button className='cart-button buy-button' onClick={() => buyNow(item)}>Buy Now</button>
+                                            <button className='cart-button ' onClick={() => removeItemFromCart(item)}>Remove this</button>
+                                        </div>
                                     </div>
                                 </div>
                             )

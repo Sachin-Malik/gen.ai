@@ -2,6 +2,33 @@
     padding: 20px 5%;
 }
 
+.cart-item {
+    display: flex;
+}
+
 .cart-title {
     font-weight: 800;
+}
+
+.cart-button {
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buy-button {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+@media screen and (max-width:600px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px
+    }
 }

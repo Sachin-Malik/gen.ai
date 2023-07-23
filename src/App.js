@@ -14,9 +14,9 @@ function App() {
   }
   return (
     <Routes>
-      <Route path='/' element={<Home toast={toast} showToast={showToast} />} />
+      <Route path='/home' element={<Home toast={toast} showToast={showToast} />} />
       <Route path='/cart' element={<Cart />} />
-      <Route path="*" element={<Navigate to="/" />} />
+      <Route path="*" element={<Navigate to="/home" />} />
     </Routes>
 
   );
